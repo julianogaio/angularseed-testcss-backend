@@ -1,0 +1,25 @@
+{
+    "name": "socket.io",
+    "version": "0.0.0",
+    "description": "",
+    "main": "app.js",
+    "author": "Eduardo Martins",
+    "private": true,
+    "license": "BSD",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "cors": "^2.8.4",
+        "crypto": "^1.0.1",
+        "express": "4.13.4",
+        "express-session": "^1.15.6",
+        "jsonwebtoken": "^8.1.1",
+        "mongodb": "^3.0.5",
+        "sha256": "^0.2.0"
+    },
+    "scripts": {
+        "start": "clear && node app.js"
+    },
+    "devDependencies": {
+        "mustache": "^2.3.0"
+    }
+}
